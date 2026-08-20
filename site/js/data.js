@@ -39,6 +39,7 @@ window.CATEGORIES = {
     yared: { name: "Yared Henriquez", github: "DevCop95", area: "Ciberseguridad, bug bounty" },
     gustavo: { name: "Gustavo Adolfo Rodríguez", github: "ingegus", area: "Moodle, PHP" },
     alfonso: { name: "Alfonso Hernandez", github: "ponchale", area: "Navegadores, escritorio" },
+    oscar: { name: "Oscar Barajas Tavares", github: "gndx", area: "Astro, JavaScript, DevTools" },
   };
 
   window.PROJECTS = [
@@ -380,6 +381,42 @@ window.CATEGORIES = {
         es: "Plugin de bloque para Moodle (4.5+) que muestra frases rotativas desde una biblioteca gestionada por el administrador, ideal para dashboards. Permite crear, editar, activar y eliminar frases, y personalizar el bloque (título, íconos Font Awesome, colores y bordes).",
         en: "A Moodle block plugin (4.5+) that displays rotating quotes from an admin-managed library, ideal for dashboards. Admins can create, edit, enable, and delete quotes, and customize the block (title, Font Awesome icons, colors, and border radius).",
         pt: "Um plugin de bloco para Moodle (4.5+) que exibe frases rotativas a partir de uma biblioteca gerenciada pelo administrador, ideal para dashboards. Permite criar, editar, ativar e excluir frases, e personalizar o bloco (título, ícones Font Awesome, cores e bordas).",
+      },
+    },
+    {
+      name: "gndx-zsh-theme",
+      url: "https://github.com/gndx/gndx-zsh-theme",
+      category: "extensions",
+      creator: C.oscar,
+      tags: ["Zsh", "Oh My Zsh"],
+      description: {
+        es: "Tema para Oh My Zsh que personaliza la apariencia del prompt de Zsh.",
+        en: "Theme for Oh My Zsh that customizes the appearance of the Zsh prompt.",
+        pt: "Tema para Oh My Zsh que personaliza a aparência do prompt do Zsh.",
+      },
+    },
+    {
+      name: "EV0 Astro Theme",
+      url: "https://github.com/gndx/ev0-astro-theme",
+      category: "extensions",
+      creator: C.oscar,
+      tags: ["Astro", "Tailwind CSS", "TypeScript"],
+      description: {
+        es: "Plantilla de blog serverless, gratuita y de código abierto, construida con Astro, Tailwind CSS y TypeScript para crear portafolios personales y mostrar proyectos.",
+        en: "Free and open-source serverless blog template built with Astro, Tailwind CSS and TypeScript for creating personal portfolios and showcasing projects.",
+        pt: "Template de blog serverless, gratuito e de código aberto, construído com Astro, Tailwind CSS e TypeScript para criar portfólios pessoais e apresentar projetos.",
+      },
+    },
+    {
+      name: "LinkyTree",
+      url: "https://github.com/gndx/linkytree",
+      category: "extensions",
+      creator: C.oscar,
+      tags: ["Astro", "Tailwind CSS", "Cloudflare"],
+      description: {
+        es: "Plantilla de página de enlaces en la biografía construida con Astro y Tailwind CSS, configurable desde un único archivo de datos.",
+        en: "Link-in-bio page template built with Astro and Tailwind CSS, configurable from a single data file.",
+        pt: "Template de página de links na bio construído com Astro e Tailwind CSS, configurável a partir de um único arquivo de dados.",
       },
     },
     {

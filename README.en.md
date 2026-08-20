@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totals:** 33 projects · 7 categories
+> 📊 **Totals:** 36 projects · 7 categories
 
 A showcase of Colombian talent in technology, programming and open data. All projects are:
 
@@ -192,6 +192,21 @@ There you can search projects, filter by category and discover Colombian open so
 - **Description:** A Moodle block plugin (4.5+) that displays rotating quotes from an admin-managed library, ideal for dashboards. Admins can create, edit, enable, and delete quotes, and customize the block (title, Font Awesome icons, colors, and border radius).
 - **Category:** Moodle plugin
 - **Creator:** Gustavo Adolfo Rodríguez
+
+### 🔹 [gndx-zsh-theme](https://github.com/gndx/gndx-zsh-theme)
+- **Description:** Theme for Oh My Zsh that customizes the appearance of the Zsh prompt.
+- **Category:** Zsh theme / Oh My Zsh
+- **Creator:** Oscar Barajas Tavares (gndx)
+
+### 🔹 [EV0 Astro Theme](https://github.com/gndx/ev0-astro-theme)
+- **Description:** Free and open-source serverless blog template built with Astro, Tailwind CSS and TypeScript for creating personal portfolios and showcasing projects.
+- **Category:** Astro / Blog template
+- **Creator:** Oscar Barajas Tavares (gndx)
+
+### 🔹 [LinkyTree](https://github.com/gndx/linkytree)
+- **Description:** Link-in-bio page template built with Astro and Tailwind CSS, configurable from a single data file.
+- **Category:** Astro / Link page template
+- **Creator:** Oscar Barajas Tavares (gndx)
 
 ---
 
