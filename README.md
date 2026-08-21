@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contribuidores)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totales:** 36 proyectos · 7 categorías
+> 📊 **Totales:** 41 proyectos · 7 categorías
 
 Una muestra del talento colombiano en tecnología, programación y datos abiertos. Todos los proyectos son:
 
@@ -208,6 +208,26 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Categoría:** Astro / Plantilla de enlaces
 - **Creador:** Oscar Barajas Tavares (gndx)
 
+### 🔹 [Cedra](https://github.com/ManuelGil/cedra)
+- **Descripción:** Aplicación GTK para estaciones de trabajo Debian que instala software con APT y aplica la configuración del sistema que el paquete no cubre: valores por defecto de Git, políticas del navegador, manejadores de escritorio, fuentes, terminal e impresión.
+- **Categoría:** Utilidad de escritorio / Linux (Debian)
+- **Creador:** Manuel Gil
+
+### 🔹 [Weave Context](https://github.com/ManuelGil/vscode-weave-context)
+- **Descripción:** Extensión de VS Code para navegar la documentación Markdown del repositorio como si fuera código: convierte los wikilinks explícitos en símbolos del editor con Ir a definición, Buscar referencias, Renombrar y autocompletado. La identidad se basa en el sistema de archivos, sin bases de datos ni inferencia por IA.
+- **Categoría:** Extensiones VS Code / Documentación Markdown
+- **Creador:** Manuel Gil
+
+### 🔹 [Weave Context Dashboard](https://github.com/ManuelGil/weave-context-dashboard)
+- **Descripción:** Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.
+- **Categoría:** Aplicación de escritorio / Documentación Markdown
+- **Creador:** Manuel Gil
+
+### 🔹 [Python File Generator](https://github.com/ManuelGil/vscode-python-generator)
+- **Descripción:** Extensión de VS Code que genera archivos y estructuras de proyecto en Python a partir de plantillas: scaffolding de funcionalidades FastAPI en varios archivos (router, service, schema, repository), herramientas CLI con argparse, modelos de Django y plantillas propias definidas en la configuración.
+- **Categoría:** Extensiones VS Code / Python
+- **Creador:** Manuel Gil
+
 ---
 
 ## ☁️ Servicios y Proveedores
@@ -235,6 +255,11 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Descripción:** Colección de skills listos para usar con Claude, ChatGPT y otros LLMs, orientados a la práctica jurídica colombiana: análisis de contratos, redacción de tutelas y escritos judiciales, investigación normativa y comunicación con clientes.
 - **Categoría:** IA / Legal tech
 - **Creador:** Carlos Alvarado
+
+### 🔹 [Weave Skills](https://github.com/ManuelGil/weave-context-skills)
+- **Descripción:** Colección de cuatro skills en Markdown para agentes de IA (knowledge-construction, implementation-investigation, operational-memory y locality-recovery) que ayudan a preservar y reconstruir el contexto de trabajos de ingeniería que abarcan varias sesiones. Se instalan como archivos del repositorio y se comparten entre herramientas como Claude, Cursor y Windsurf mediante enlaces simbólicos.
+- **Categoría:** IA / Skills para agentes
+- **Creador:** Manuel Gil
 
 ---
 

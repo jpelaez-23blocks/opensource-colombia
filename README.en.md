@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totals:** 36 projects · 7 categories
+> 📊 **Totals:** 41 projects · 7 categories
 
 A showcase of Colombian talent in technology, programming and open data. All projects are:
 
@@ -208,6 +208,26 @@ There you can search projects, filter by category and discover Colombian open so
 - **Category:** Astro / Link page template
 - **Creator:** Oscar Barajas Tavares (gndx)
 
+### 🔹 [Cedra](https://github.com/ManuelGil/cedra)
+- **Description:** GTK application for Debian-family workstations that installs software with APT and applies the system integration a package install does not cover: Git defaults, browser policies, desktop handlers, fonts, terminal and printing settings.
+- **Category:** Desktop utility / Linux (Debian)
+- **Creator:** Manuel Gil
+
+### 🔹 [Weave Context](https://github.com/ManuelGil/vscode-weave-context)
+- **Description:** VS Code extension to navigate repository Markdown documentation like code: it turns explicit wikilinks into editor symbols with Go to Definition, Find References, Rename Symbol and autocompletion. Identity is filesystem-backed, with no databases or AI inference.
+- **Category:** VS Code extensions / Markdown documentation
+- **Creator:** Manuel Gil
+
+### 🔹 [Weave Context Dashboard](https://github.com/ManuelGil/weave-context-dashboard)
+- **Description:** Desktop application that reads a folder of Markdown files and reports which documents exist, how they reference one another through explicit wikilinks, and where each one sits, with workspace, explore, search, inspector and reference-graph screens. It does not modify files or infer relationships.
+- **Category:** Desktop application / Markdown documentation
+- **Creator:** Manuel Gil
+
+### 🔹 [Python File Generator](https://github.com/ManuelGil/vscode-python-generator)
+- **Description:** VS Code extension that generates Python files and project structures from templates: multi-file FastAPI feature scaffolding (router, service, schema, repository), CLI tools with argparse, Django models and custom templates defined in settings.
+- **Category:** VS Code extensions / Python
+- **Creator:** Manuel Gil
+
 ---
 
 ## ☁️ Services & Providers
@@ -235,6 +255,11 @@ There you can search projects, filter by category and discover Colombian open so
 - **Description:** Collection of ready-to-use skills for Claude, ChatGPT and other LLMs, tailored to Colombian legal practice: contract analysis, drafting of tutelas and judicial documents, legal research and client communication.
 - **Category:** AI / Legal tech
 - **Creator:** Carlos Alvarado
+
+### 🔹 [Weave Skills](https://github.com/ManuelGil/weave-context-skills)
+- **Description:** Collection of four Markdown skills for AI agents (knowledge-construction, implementation-investigation, operational-memory and locality-recovery) that help preserve and rebuild context across engineering work spanning multiple sessions. They install as repository files and are shared across tools such as Claude, Cursor and Windsurf through symbolic links.
+- **Category:** AI / Agent skills
+- **Creator:** Manuel Gil
 
 ---
 
