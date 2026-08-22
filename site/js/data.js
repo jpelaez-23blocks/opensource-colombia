@@ -150,9 +150,9 @@ window.CATEGORIES = {
       tags: ["REST", "Open Data"],
       featured: true,
       description: {
-        es: "API REST que expone datos públicos y turísticos de Colombia (departamentos, ciudades, platos típicos, parques).",
-        en: "REST API that exposes public and tourist data of Colombia (departments, cities, typical dishes, parks).",
-        pt: "API REST que expõe dados públicos e turísticos da Colômbia (departamentos, cidades, pratos típicos, parques).",
+        es: "API REST (api-colombia.com) que expone datos públicos y turísticos de Colombia (departamentos, ciudades, platos típicos, parques).",
+        en: "REST API (api-colombia.com) that exposes public and tourist data of Colombia (departments, cities, typical dishes, parks).",
+        pt: "API REST (api-colombia.com) que expõe dados públicos e turísticos da Colômbia (departamentos, cidades, pratos típicos, parques).",
       },
     },
     {
@@ -177,6 +177,18 @@ window.CATEGORIES = {
         es: "API GraphQL pública de la Biblia con más de 40 traducciones y clientes nativos para Node.js y Ruby.",
         en: "Public GraphQL API for the Bible with more than 40 translations and native clients for Node.js and Ruby.",
         pt: "API GraphQL pública da Bíblia com mais de 40 traduções e clientes nativos para Node.js e Ruby.",
+      },
+    },
+    {
+      name: "Invasive Species Colombia",
+      url: "https://github.com/Mteheran/invasivespecie-colombia",
+      category: "apis",
+      creator: C.miguel,
+      tags: ["React", "TypeScript", "Open Data"],
+      description: {
+        es: "Portal web (especiesinvasoras.api-colombia.com) para descubrir y conocer las especies invasoras de flora y fauna en Colombia, consumiendo datos en tiempo real de API-Colombia. Incluye listados de especies, fichas detalladas, mapas de distribución y herramientas de reporte. Construido con React, TypeScript y d3.js.",
+        en: "Web portal (especiesinvasoras.api-colombia.com) to discover and learn about invasive plant and animal species in Colombia, consuming real-time data from API-Colombia. Features species listings, detailed cards, distribution maps and reporting tools. Built with React, TypeScript and d3.js.",
+        pt: "Portal web (especiesinvasoras.api-colombia.com) para descobrir e conhecer as espécies invasoras de flora e fauna na Colômbia, consumindo dados em tempo real da API-Colombia. Inclui listagens de espécies, fichas detalhadas, mapas de distribuição e ferramentas de reporte. Construído com React, TypeScript e d3.js.",
       },
     },
     {
