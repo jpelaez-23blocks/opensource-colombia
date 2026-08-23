@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totals:** 41 projects · 7 categories
+> 📊 **Totals:** 37 projects · 7 categories
 
 A showcase of Colombian talent in technology, programming and open data. All projects are:
 
@@ -82,7 +82,7 @@ There you can search projects, filter by category and discover Colombian open so
 ## 🛰️ APIs & Open Data
 
 ### 🔹 [API-Colombia](https://github.com/mteheran/api-colombia)
-- **Description:** REST API that exposes public and tourist data of Colombia (departments, cities, typical dishes, parks).
+- **Description:** REST API ([api-colombia.com](https://api-colombia.com/)) that exposes public and tourist data of Colombia (departments, cities, typical dishes, parks).
 - **Category:** Open Data / Public API
 - **Creator:** Miguel Teheran
 
@@ -95,6 +95,11 @@ There you can search projects, filter by category and discover Colombian open so
 - **Description:** Public GraphQL API for the Bible with more than 40 translations and native clients for Node.js and Ruby.
 - **Category:** Public API / GraphQL
 - **Creator:** Luis Porras
+
+### 🔹 [Invasive Species Colombia](https://github.com/Mteheran/invasivespecie-colombia)
+- **Description:** Web portal ([especiesinvasoras.api-colombia.com](https://especiesinvasoras.api-colombia.com/)) to discover and learn about invasive plant and animal species in Colombia, consuming real-time data from API-Colombia. Features species listings, detailed cards, distribution maps and reporting tools. Built with React, TypeScript and d3.js.
+- **Category:** Open Data / Data portal
+- **Creator:** Miguel Teheran
 
 ---
 
