@@ -228,6 +228,18 @@ window.CATEGORIES = {
       },
     },
     {
+      name: "Amonite Mobile",
+      url: "https://github.com/ManuelGil/amonite-mobile",
+      category: "mobile",
+      creator: C.manuel,
+      tags: ["Linux", "ARM64", "Waydroid"],
+      description: {
+        es: "Distribución Linux para dispositivos móviles ARM64 basada en Debian 13 (trixie), con escritorio Wayland pensado para pantalla táctil, instalador Calamares y Waydroid integrado para ejecutar aplicaciones Android. Construye la variante Community; todavía no ha sido probada en hardware físico.",
+        en: "Linux distribution for ARM64 mobile devices based on Debian 13 (trixie), with a Wayland desktop built for touchscreens, the Calamares installer and Waydroid integrated to run Android applications. It builds the Community variant and has not been tested on physical hardware yet.",
+        pt: "Distribuição Linux para dispositivos móveis ARM64 baseada no Debian 13 (trixie), com desktop Wayland pensado para tela sensível ao toque, instalador Calamares e Waydroid integrado para executar aplicativos Android. Constrói a variante Community; ainda não foi testada em hardware físico.",
+      },
+    },
+    {
       name: "ADVAD",
       url: "https://github.com/ADVAD1D/ADVAD1D",
       category: "games",
@@ -444,18 +456,6 @@ window.CATEGORIES = {
       },
     },
     {
-      name: "Weave Context",
-      url: "https://github.com/ManuelGil/vscode-weave-context",
-      category: "extensions",
-      creator: C.manuel,
-      tags: ["VS Code", "Markdown", "Wikilinks"],
-      description: {
-        es: "Extensión de VS Code para navegar la documentación Markdown del repositorio como si fuera código: convierte los wikilinks explícitos en símbolos del editor con Ir a definición, Buscar referencias, Renombrar y autocompletado. La identidad se basa en el sistema de archivos, sin bases de datos ni inferencia por IA.",
-        en: "VS Code extension to navigate repository Markdown documentation like code: it turns explicit wikilinks into editor symbols with Go to Definition, Find References, Rename Symbol and autocompletion. Identity is filesystem-backed, with no databases or AI inference.",
-        pt: "Extensão do VS Code para navegar a documentação Markdown do repositório como se fosse código: transforma wikilinks explícitos em símbolos do editor com Ir para definição, Localizar referências, Renomear e autocompletar. A identidade é baseada no sistema de arquivos, sem bancos de dados nem inferência por IA.",
-      },
-    },
-    {
       name: "Weave Context Dashboard",
       url: "https://github.com/ManuelGil/weave-context-dashboard",
       category: "extensions",
@@ -465,18 +465,6 @@ window.CATEGORIES = {
         es: "Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.",
         en: "Desktop application that reads a folder of Markdown files and reports which documents exist, how they reference one another through explicit wikilinks, and where each one sits, with workspace, explore, search, inspector and reference-graph screens. It does not modify files or infer relationships.",
         pt: "Aplicativo de desktop que lê uma pasta de arquivos Markdown e informa quais documentos existem, como se referenciam por wikilinks explícitos e onde cada um se situa, com telas de espaço de trabalho, exploração, busca, inspetor e grafo de referências. Não modifica os arquivos nem infere relações.",
-      },
-    },
-    {
-      name: "Python File Generator",
-      url: "https://github.com/ManuelGil/vscode-python-generator",
-      category: "extensions",
-      creator: C.manuel,
-      tags: ["VS Code", "Python", "FastAPI"],
-      description: {
-        es: "Extensión de VS Code que genera archivos y estructuras de proyecto en Python a partir de plantillas: scaffolding de funcionalidades FastAPI en varios archivos (router, service, schema, repository), herramientas CLI con argparse, modelos de Django y plantillas propias definidas en la configuración.",
-        en: "VS Code extension that generates Python files and project structures from templates: multi-file FastAPI feature scaffolding (router, service, schema, repository), CLI tools with argparse, Django models and custom templates defined in settings.",
-        pt: "Extensão do VS Code que gera arquivos e estruturas de projeto em Python a partir de templates: scaffolding de funcionalidades FastAPI em vários arquivos (router, service, schema, repository), ferramentas de CLI com argparse, modelos do Django e templates próprios definidos nas configurações.",
       },
     },
     {

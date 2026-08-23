@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totals:** 37 projects · 7 categories
+> 📊 **Totals:** 41 projects · 7 categories
 
 A showcase of Colombian talent in technology, programming and open data. All projects are:
 
@@ -120,6 +120,11 @@ There you can search projects, filter by category and discover Colombian open so
 - **Category:** Desktop browser
 - **Creator:** Alfonso Hernandez
 
+### 🔹 [Amonite Mobile](https://github.com/ManuelGil/amonite-mobile)
+- **Description:** Linux distribution for ARM64 mobile devices based on Debian 13 (trixie), with a Wayland desktop built for touchscreens, the Calamares installer and Waydroid integrated to run Android applications. It builds the Community variant and has not been tested on physical hardware yet.
+- **Category:** Mobile Linux distribution / ARM64
+- **Creator:** Manuel Gil
+
 ---
 
 ## 🎮 Video Games
@@ -218,19 +223,9 @@ There you can search projects, filter by category and discover Colombian open so
 - **Category:** Desktop utility / Linux (Debian)
 - **Creator:** Manuel Gil
 
-### 🔹 [Weave Context](https://github.com/ManuelGil/vscode-weave-context)
-- **Description:** VS Code extension to navigate repository Markdown documentation like code: it turns explicit wikilinks into editor symbols with Go to Definition, Find References, Rename Symbol and autocompletion. Identity is filesystem-backed, with no databases or AI inference.
-- **Category:** VS Code extensions / Markdown documentation
-- **Creator:** Manuel Gil
-
 ### 🔹 [Weave Context Dashboard](https://github.com/ManuelGil/weave-context-dashboard)
 - **Description:** Desktop application that reads a folder of Markdown files and reports which documents exist, how they reference one another through explicit wikilinks, and where each one sits, with workspace, explore, search, inspector and reference-graph screens. It does not modify files or infer relationships.
 - **Category:** Desktop application / Markdown documentation
-- **Creator:** Manuel Gil
-
-### 🔹 [Python File Generator](https://github.com/ManuelGil/vscode-python-generator)
-- **Description:** VS Code extension that generates Python files and project structures from templates: multi-file FastAPI feature scaffolding (router, service, schema, repository), CLI tools with argparse, Django models and custom templates defined in settings.
-- **Category:** VS Code extensions / Python
 - **Creator:** Manuel Gil
 
 ---
