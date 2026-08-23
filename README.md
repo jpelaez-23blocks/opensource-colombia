@@ -115,15 +115,15 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Categoría:** Desarrollo de videojuegos / Unity
 - **Creador:** J.D. Nicholls (Proyecto26)
 
-### 🔹 [Midori](https://github.com/goastian/midori-desktop)
-- **Descripción:** Navegador de escritorio ligero, rápido y enfocado en la privacidad, basado en el motor Gecko de Firefox. Incluye bloqueador de anuncios y rastreadores, gestor de espacios de trabajo, motores de búsqueda personalizados y sincronización de correo/contactos (CalDAV, CardDAV). Multiplataforma (Windows, macOS y Linux).
-- **Categoría:** Navegador de escritorio
-- **Creador:** Alfonso Hernandez
-
 ### 🔹 [Amonite Mobile](https://github.com/ManuelGil/amonite-mobile)
 - **Descripción:** Distribución Linux para dispositivos móviles ARM64 basada en Debian 13 (trixie), con escritorio Wayland pensado para pantalla táctil, instalador Calamares y Waydroid integrado para ejecutar aplicaciones Android. Construye la variante Community; todavía no ha sido probada en hardware físico.
 - **Categoría:** Distribución Linux móvil / ARM64
 - **Creador:** Manuel Gil
+
+### 🔹 [Midori](https://github.com/goastian/midori-desktop)
+- **Descripción:** Navegador de escritorio ligero, rápido y enfocado en la privacidad, basado en el motor Gecko de Firefox. Incluye bloqueador de anuncios y rastreadores, gestor de espacios de trabajo, motores de búsqueda personalizados y sincronización de correo/contactos (CalDAV, CardDAV). Multiplataforma (Windows, macOS y Linux).
+- **Categoría:** Navegador de escritorio
+- **Creador:** Alfonso Hernandez
 
 ---
 
@@ -173,6 +173,16 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Categoría:** Extensiones VS Code / Productividad
 - **Creador:** Manuel Gil
 
+### 🔹 [Cedra](https://github.com/ManuelGil/cedra)
+- **Descripción:** Aplicación GTK para estaciones de trabajo Debian que instala software con APT y aplica la configuración del sistema que el paquete no cubre: valores por defecto de Git, políticas del navegador, manejadores de escritorio, fuentes, terminal e impresión.
+- **Categoría:** Utilidad de escritorio / Linux (Debian)
+- **Creador:** Manuel Gil
+
+### 🔹 [Weave Context Dashboard](https://github.com/ManuelGil/weave-context-dashboard)
+- **Descripción:** Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.
+- **Categoría:** Aplicación de escritorio / Documentación Markdown
+- **Creador:** Manuel Gil
+
 ### 🔹 [Kaddo](https://github.com/Kaddo-kdd/kaddo)
 - **Descripción:** Toolkit CLI y de agentes que prepara cualquier base de código para el desarrollo asistido por IA, construyendo una capa de conocimiento estructurada junto al código (Knowledge Driven Development).
 - **Categoría:** Herramientas para IA / CLI
@@ -217,16 +227,6 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Descripción:** Plantilla de página de enlaces en la biografía construida con Astro y Tailwind CSS, configurable desde un único archivo de datos.
 - **Categoría:** Astro / Plantilla de enlaces
 - **Creador:** Oscar Barajas Tavares (gndx)
-
-### 🔹 [Cedra](https://github.com/ManuelGil/cedra)
-- **Descripción:** Aplicación GTK para estaciones de trabajo Debian que instala software con APT y aplica la configuración del sistema que el paquete no cubre: valores por defecto de Git, políticas del navegador, manejadores de escritorio, fuentes, terminal e impresión.
-- **Categoría:** Utilidad de escritorio / Linux (Debian)
-- **Creador:** Manuel Gil
-
-### 🔹 [Weave Context Dashboard](https://github.com/ManuelGil/weave-context-dashboard)
-- **Descripción:** Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.
-- **Categoría:** Aplicación de escritorio / Documentación Markdown
-- **Creador:** Manuel Gil
 
 ---
 

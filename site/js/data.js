@@ -216,18 +216,6 @@ window.CATEGORIES = {
       },
     },
     {
-      name: "Midori",
-      url: "https://github.com/goastian/midori-desktop",
-      category: "mobile",
-      creator: C.alfonso,
-      tags: ["Browser", "Privacy", "Gecko"],
-      description: {
-        es: "Navegador de escritorio ligero, rápido y enfocado en la privacidad, basado en el motor Gecko de Firefox. Incluye bloqueador de anuncios y rastreadores, gestor de espacios de trabajo, motores de búsqueda personalizados y sincronización de correo/contactos (CalDAV, CardDAV). Multiplataforma (Windows, macOS y Linux).",
-        en: "A lightweight, fast, privacy-focused desktop web browser based on Firefox's Gecko engine. Includes a built-in ad and tracker blocker, a workspace manager, custom search engines, and email/contacts sync (CalDAV, CardDAV). Cross-platform (Windows, macOS, and Linux).",
-        pt: "Um navegador de desktop leve, rápido e focado em privacidade, baseado no motor Gecko do Firefox. Inclui bloqueador de anúncios e rastreadores, gerenciador de espaços de trabalho, mecanismos de busca personalizados e sincronização de e-mail/contatos (CalDAV, CardDAV). Multiplataforma (Windows, macOS e Linux).",
-      },
-    },
-    {
       name: "Amonite Mobile",
       url: "https://github.com/ManuelGil/amonite-mobile",
       category: "mobile",
@@ -237,6 +225,18 @@ window.CATEGORIES = {
         es: "Distribución Linux para dispositivos móviles ARM64 basada en Debian 13 (trixie), con escritorio Wayland pensado para pantalla táctil, instalador Calamares y Waydroid integrado para ejecutar aplicaciones Android. Construye la variante Community; todavía no ha sido probada en hardware físico.",
         en: "Linux distribution for ARM64 mobile devices based on Debian 13 (trixie), with a Wayland desktop built for touchscreens, the Calamares installer and Waydroid integrated to run Android applications. It builds the Community variant and has not been tested on physical hardware yet.",
         pt: "Distribuição Linux para dispositivos móveis ARM64 baseada no Debian 13 (trixie), com desktop Wayland pensado para tela sensível ao toque, instalador Calamares e Waydroid integrado para executar aplicativos Android. Constrói a variante Community; ainda não foi testada em hardware físico.",
+      },
+    },
+    {
+      name: "Midori",
+      url: "https://github.com/goastian/midori-desktop",
+      category: "mobile",
+      creator: C.alfonso,
+      tags: ["Browser", "Privacy", "Gecko"],
+      description: {
+        es: "Navegador de escritorio ligero, rápido y enfocado en la privacidad, basado en el motor Gecko de Firefox. Incluye bloqueador de anuncios y rastreadores, gestor de espacios de trabajo, motores de búsqueda personalizados y sincronización de correo/contactos (CalDAV, CardDAV). Multiplataforma (Windows, macOS y Linux).",
+        en: "A lightweight, fast, privacy-focused desktop web browser based on Firefox's Gecko engine. Includes a built-in ad and tracker blocker, a workspace manager, custom search engines, and email/contacts sync (CalDAV, CardDAV). Cross-platform (Windows, macOS, and Linux).",
+        pt: "Um navegador de desktop leve, rápido e focado em privacidade, baseado no motor Gecko do Firefox. Inclui bloqueador de anúncios e rastreadores, gerenciador de espaços de trabalho, mecanismos de busca personalizados e sincronização de e-mail/contatos (CalDAV, CardDAV). Multiplataforma (Windows, macOS e Linux).",
       },
     },
     {
@@ -333,6 +333,30 @@ window.CATEGORIES = {
         es: "Extensión de VS Code para crear y mantener archivos barrel (index.ts) en proyectos TypeScript/JavaScript.",
         en: "VS Code extension to create and maintain barrel files (index.ts) in TypeScript/JavaScript projects.",
         pt: "Extensão do VS Code para criar e manter arquivos barrel (index.ts) em projetos TypeScript/JavaScript.",
+      },
+    },
+    {
+      name: "Cedra",
+      url: "https://github.com/ManuelGil/cedra",
+      category: "extensions",
+      creator: C.manuel,
+      tags: ["GTK", "Debian", "Python"],
+      description: {
+        es: "Aplicación GTK para estaciones de trabajo Debian que instala software con APT y aplica la configuración del sistema que el paquete no cubre: valores por defecto de Git, políticas del navegador, fuentes, terminal e impresión.",
+        en: "GTK application for Debian-family workstations that installs software with APT and applies the system integration a package install does not cover: Git defaults, browser policies, fonts, terminal and printing settings.",
+        pt: "Aplicativo GTK para estações de trabalho Debian que instala software com APT e aplica a configuração de sistema que o pacote não cobre: padrões do Git, políticas do navegador, fontes, terminal e impressão.",
+      },
+    },
+    {
+      name: "Weave Context Dashboard",
+      url: "https://github.com/ManuelGil/weave-context-dashboard",
+      category: "extensions",
+      creator: C.manuel,
+      tags: ["Desktop", "Vue", "Markdown"],
+      description: {
+        es: "Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.",
+        en: "Desktop application that reads a folder of Markdown files and reports which documents exist, how they reference one another through explicit wikilinks, and where each one sits, with workspace, explore, search, inspector and reference-graph screens. It does not modify files or infer relationships.",
+        pt: "Aplicativo de desktop que lê uma pasta de arquivos Markdown e informa quais documentos existem, como se referenciam por wikilinks explícitos e onde cada um se situa, com telas de espaço de trabalho, exploração, busca, inspetor e grafo de referências. Não modifica os arquivos nem infere relações.",
       },
     },
     {
@@ -441,30 +465,6 @@ window.CATEGORIES = {
         es: "Plantilla de página de enlaces en la biografía construida con Astro y Tailwind CSS, configurable desde un único archivo de datos.",
         en: "Link-in-bio page template built with Astro and Tailwind CSS, configurable from a single data file.",
         pt: "Template de página de links na bio construído com Astro e Tailwind CSS, configurável a partir de um único arquivo de dados.",
-      },
-    },
-    {
-      name: "Cedra",
-      url: "https://github.com/ManuelGil/cedra",
-      category: "extensions",
-      creator: C.manuel,
-      tags: ["GTK", "Debian", "Python"],
-      description: {
-        es: "Aplicación GTK para estaciones de trabajo Debian que instala software con APT y aplica la configuración del sistema que el paquete no cubre: valores por defecto de Git, políticas del navegador, fuentes, terminal e impresión.",
-        en: "GTK application for Debian-family workstations that installs software with APT and applies the system integration a package install does not cover: Git defaults, browser policies, fonts, terminal and printing settings.",
-        pt: "Aplicativo GTK para estações de trabalho Debian que instala software com APT e aplica a configuração de sistema que o pacote não cobre: padrões do Git, políticas do navegador, fontes, terminal e impressão.",
-      },
-    },
-    {
-      name: "Weave Context Dashboard",
-      url: "https://github.com/ManuelGil/weave-context-dashboard",
-      category: "extensions",
-      creator: C.manuel,
-      tags: ["Desktop", "Vue", "Markdown"],
-      description: {
-        es: "Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.",
-        en: "Desktop application that reads a folder of Markdown files and reports which documents exist, how they reference one another through explicit wikilinks, and where each one sits, with workspace, explore, search, inspector and reference-graph screens. It does not modify files or infer relationships.",
-        pt: "Aplicativo de desktop que lê uma pasta de arquivos Markdown e informa quais documentos existem, como se referenciam por wikilinks explícitos e onde cada um se situa, com telas de espaço de trabalho, exploração, busca, inspetor e grafo de referências. Não modifica os arquivos nem infere relações.",
       },
     },
     {
