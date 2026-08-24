@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totals:** 37 projects · 7 categories
+> 📊 **Totals:** 41 projects · 7 categories
 
 A showcase of Colombian talent in technology, programming and open data. All projects are:
 
@@ -115,6 +115,11 @@ There you can search projects, filter by category and discover Colombian open so
 - **Category:** Game development / Unity
 - **Creator:** J.D. Nicholls (Proyecto26)
 
+### 🔹 [Amonite Mobile](https://github.com/ManuelGil/amonite-mobile)
+- **Description:** Linux distribution for ARM64 mobile devices based on Debian 13 (trixie), with a Wayland desktop built for touchscreens, the Calamares installer and Waydroid integrated to run Android applications. It builds the Community variant and has not been tested on physical hardware yet.
+- **Category:** Mobile Linux distribution / ARM64
+- **Creator:** Manuel Gil
+
 ### 🔹 [Midori](https://github.com/goastian/midori-desktop)
 - **Description:** A lightweight, fast, privacy-focused desktop web browser based on Firefox's Gecko engine. Includes a built-in ad and tracker blocker, a workspace manager, custom search engines, and email/contacts sync (CalDAV, CardDAV). Cross-platform (Windows, macOS, and Linux).
 - **Category:** Desktop browser
@@ -166,6 +171,16 @@ There you can search projects, filter by category and discover Colombian open so
 ### 🔹 [Auto Barrel](https://github.com/ManuelGil/vscode-auto-barrel)
 - **Description:** VS Code extension to create and maintain barrel files (index.ts) in TypeScript/JavaScript projects.
 - **Category:** VS Code extensions / Productivity
+- **Creator:** Manuel Gil
+
+### 🔹 [Cedra](https://github.com/ManuelGil/cedra)
+- **Description:** GTK application for Debian-family workstations that installs software with APT and applies the system integration a package install does not cover: Git defaults, browser policies, desktop handlers, fonts, terminal and printing settings.
+- **Category:** Desktop utility / Linux (Debian)
+- **Creator:** Manuel Gil
+
+### 🔹 [Weave Context Dashboard](https://github.com/ManuelGil/weave-context-dashboard)
+- **Description:** Desktop application that reads a folder of Markdown files and reports which documents exist, how they reference one another through explicit wikilinks, and where each one sits, with workspace, explore, search, inspector and reference-graph screens. It does not modify files or infer relationships.
+- **Category:** Desktop application / Markdown documentation
 - **Creator:** Manuel Gil
 
 ### 🔹 [Kaddo](https://github.com/Kaddo-kdd/kaddo)
@@ -240,6 +255,11 @@ There you can search projects, filter by category and discover Colombian open so
 - **Description:** Collection of ready-to-use skills for Claude, ChatGPT and other LLMs, tailored to Colombian legal practice: contract analysis, drafting of tutelas and judicial documents, legal research and client communication.
 - **Category:** AI / Legal tech
 - **Creator:** Carlos Alvarado
+
+### 🔹 [Weave Skills](https://github.com/ManuelGil/weave-context-skills)
+- **Description:** Collection of four Markdown skills for AI agents (knowledge-construction, implementation-investigation, operational-memory and locality-recovery) that help preserve and rebuild context across engineering work spanning multiple sessions. They install as repository files and are shared across tools such as Claude, Cursor and Windsurf through symbolic links.
+- **Category:** AI / Agent skills
+- **Creator:** Manuel Gil
 
 ---
 
