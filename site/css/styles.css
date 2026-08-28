@@ -564,6 +564,21 @@ a {
   color: var(--color-text-muted);
 }
 
+/* En dos columnas la tarjeta comparte fila con el hero: si una descripción
+   ocupa más líneas que las demás, el carrusel cambia de alto al pasar de
+   slide y desalinea el título. Se fija la caja a 4 líneas. */
+@media (min-width: 901px) {
+  .featured-desc {
+    min-height: 0;
+    height: calc(4 * 1.6em);
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    line-clamp: 4;
+    overflow: hidden;
+  }
+}
+
 .featured-tags {
   margin-bottom: 14px;
 }
@@ -1040,9 +1055,35 @@ a {
 .creators-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 8px 0 0;
   display: flex;
   flex-direction: column;
+  /* La lista completa es muy larga: se limita la altura y se hace scrollable
+     para no empujar el resto de secciones fuera de la vista. */
+  max-height: 320px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-border) transparent;
+}
+
+.creators-list::-webkit-scrollbar {
+  width: 8px;
+}
+.creators-list::-webkit-scrollbar-track {
+  background: transparent;
+}
+.creators-list::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
+}
+.creators-list::-webkit-scrollbar-thumb:hover {
+  background: var(--color-text-subtle);
+}
+
+/* La última fila no necesita separador cuando ya no hay nada debajo. */
+.creators-list .creator-row:last-child {
+  border-bottom: 0;
 }
 
 .creator-row {
@@ -1170,6 +1211,64 @@ a {
 .step-text {
   font-size: 14px;
   color: var(--color-text-muted);
+}
+
+/* El repositorio del paso 1 es un enlace: se abre en una pestaña nueva. */
+.step-link {
+  display: inline-block;
+  color: var(--color-primary);
+  text-decoration: none;
+  font-family: var(--font-mono);
+}
+.step-link:hover,
+.step-link:focus-visible {
+  text-decoration: underline;
+}
+
+/* Nota del skill que automatiza los tres pasos anteriores. */
+.skill-note {
+  margin-top: 20px;
+  padding: 18px 20px;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius-sm);
+}
+
+.skill-note-badge {
+  display: inline-block;
+  margin-bottom: 8px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+
+.skill-note-title {
+  display: block;
+  font-size: 15.5px;
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.skill-note-text {
+  margin: 6px 0 12px;
+  max-width: 70ch;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--color-text-muted);
+}
+
+.skill-note-link {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-decoration: none;
+}
+.skill-note-link:hover,
+.skill-note-link:focus-visible {
+  text-decoration: underline;
 }
 
 .criteria {

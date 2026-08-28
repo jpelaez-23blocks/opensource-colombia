@@ -40,6 +40,11 @@ window.CATEGORIES = {
     gustavo: { name: "Gustavo Adolfo Rodríguez", github: "ingegus", area: "Moodle, PHP" },
     alfonso: { name: "Alfonso Hernandez", github: "ponchale", area: "Navegadores, escritorio" },
     oscar: { name: "Oscar Barajas Tavares", github: "gndx", area: "Astro, JavaScript, DevTools" },
+    fernando: {
+      name: "Fernando Muñoz",
+      profile: "https://git.drupalcode.org/waspper",
+      area: "Drupal, PHP",
+    },
   };
 
   window.PROJECTS = [
@@ -137,9 +142,9 @@ window.CATEGORIES = {
       tags: ["JAX", "Deep Learning", "Python"],
       featured: true,
       description: {
-        es: "API de Flax (biblioteca de redes neuronales para JAX de Google) que usa clases de Python estándar y manejo de estado explícito para hacer la definición y el entrenamiento de modelos más simple e intuitivo.",
-        en: "API of Flax (Google's neural network library for JAX) that uses standard Python classes and explicit state handling to make defining and training models simpler and more intuitive.",
-        pt: "API do Flax (biblioteca de redes neurais para JAX do Google) que usa classes Python padrão e gerenciamento explícito de estado para tornar a definição e o treinamento de modelos mais simples e intuitivos.",
+        es: "API de Flax, la biblioteca de redes neuronales de Google para JAX: clases de Python estándar y estado explícito para definir y entrenar modelos.",
+        en: "API of Flax, Google's neural network library for JAX: standard Python classes and explicit state handling to define and train models.",
+        pt: "API do Flax, a biblioteca de redes neurais do Google para JAX: classes Python padrão e estado explícito para definir e treinar modelos.",
       },
     },
     {
@@ -465,6 +470,66 @@ window.CATEGORIES = {
         es: "Plantilla de página de enlaces en la biografía construida con Astro y Tailwind CSS, configurable desde un único archivo de datos.",
         en: "Link-in-bio page template built with Astro and Tailwind CSS, configurable from a single data file.",
         pt: "Template de página de links na bio construído com Astro e Tailwind CSS, configurável a partir de um único arquivo de dados.",
+      },
+    },
+    {
+      name: "Auctioneer",
+      url: "https://www.drupal.org/project/auctioneer",
+      category: "extensions",
+      creator: C.fernando,
+      tags: ["Drupal", "PHP"],
+      description: {
+        es: "Módulo base para Drupal que permite crear tipos de subasta y definir su propio flujo mediante un sistema de plugins.",
+        en: "Base Drupal module that allows creating auction types and defining their own flow through a plugin system.",
+        pt: "Módulo base para Drupal que permite criar tipos de leilão e definir seu próprio fluxo por meio de um sistema de plugins.",
+      },
+    },
+    {
+      name: "ePayco",
+      url: "https://www.drupal.org/project/epayco",
+      category: "extensions",
+      creator: C.fernando,
+      tags: ["Drupal", "Pagos", "PHP"],
+      description: {
+        es: "Integración de la pasarela de pagos colombiana ePayco en Drupal, con soporte para pagos off-site, en iframe y enlaces de pago.",
+        en: "Integration of the Colombian payment gateway ePayco into Drupal, supporting off-site and iframe payments and payment links.",
+        pt: "Integração da gateway de pagamentos colombiana ePayco no Drupal, com suporte a pagamentos off-site, em iframe e links de pagamento.",
+      },
+    },
+    {
+      name: "Dynamic Selection Tools",
+      url: "https://www.drupal.org/project/dynamic_selection_tools",
+      category: "extensions",
+      creator: C.fernando,
+      tags: ["Drupal", "PHP"],
+      description: {
+        es: "Opciones permitidas dinámicas para campos de texto y numéricos en Drupal, conservando los valores originales guardados en la base de datos.",
+        en: "Dynamic allowed options for text and numeric fields in Drupal, preserving the raw values stored in the database.",
+        pt: "Opções permitidas dinâmicas para campos de texto e numéricos no Drupal, preservando os valores originais guardados no banco de dados.",
+      },
+    },
+    {
+      name: "Microsoft Graph Mailer",
+      url: "https://www.drupal.org/project/microsoft_graph_mailer",
+      category: "extensions",
+      creator: C.fernando,
+      tags: ["Drupal", "Microsoft 365", "PHP"],
+      description: {
+        es: "Integración de correo para Drupal que envía mensajes a través de Microsoft 365 usando Microsoft Graph, con soporte para archivos adjuntos.",
+        en: "Mailer integration for Drupal that sends messages through Microsoft 365 using Microsoft Graph, with attachment support.",
+        pt: "Integração de e-mail para Drupal que envia mensagens através do Microsoft 365 usando o Microsoft Graph, com suporte a anexos.",
+      },
+    },
+    {
+      name: "SSID",
+      url: "https://www.drupal.org/project/ssid",
+      category: "extensions",
+      creator: C.fernando,
+      tags: ["Drupal", "PHP"],
+      description: {
+        es: "Tipo de campo para Drupal que genera números seriales autoincrementales, globales o reiniciables por periodo, útiles para facturas e identificadores.",
+        en: "Drupal field type that generates auto-incrementing serial numbers, either global or resettable by time period, useful for invoices and identifiers.",
+        pt: "Tipo de campo para Drupal que gera números seriais autoincrementais, globais ou reiniciáveis por período, úteis para faturas e identificadores.",
       },
     },
     {

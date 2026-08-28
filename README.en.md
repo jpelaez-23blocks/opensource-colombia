@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totals:** 41 projects · 7 categories
+> 📊 **Totals:** 46 projects · 7 categories
 
 A showcase of Colombian talent in technology, programming and open data. All projects are:
 
@@ -68,7 +68,7 @@ There you can search projects, filter by category and discover Colombian open so
 - **Creator:** David Cardozo
 
 ### 🔹 [Flax NNX](https://github.com/google/flax)
-- **Description:** API of Flax (Google's neural network library for JAX) that uses standard Python classes and explicit state handling to make defining and training models simpler and more intuitive.
+- **Description:** API of Flax, Google's neural network library for JAX: standard Python classes and explicit state handling to define and train models.
 - **Category:** Deep learning framework
 - **Creator:** Cristian García
 
@@ -227,6 +227,31 @@ There you can search projects, filter by category and discover Colombian open so
 - **Description:** Link-in-bio page template built with Astro and Tailwind CSS, configurable from a single data file.
 - **Category:** Astro / Link page template
 - **Creator:** Oscar Barajas Tavares (gndx)
+
+### 🔹 [Auctioneer](https://www.drupal.org/project/auctioneer)
+- **Description:** Base Drupal module that allows creating auction types and defining their own flow through a plugin system.
+- **Category:** Drupal module
+- **Creator:** Fernando Muñoz
+
+### 🔹 [ePayco](https://www.drupal.org/project/epayco)
+- **Description:** Integration of the Colombian payment gateway ePayco into Drupal, supporting off-site and iframe payments and payment links.
+- **Category:** Drupal module / Payments
+- **Creator:** Fernando Muñoz
+
+### 🔹 [Dynamic Selection Tools](https://www.drupal.org/project/dynamic_selection_tools)
+- **Description:** Dynamic allowed options for text and numeric fields in Drupal, preserving the raw values stored in the database.
+- **Category:** Drupal module
+- **Creator:** Fernando Muñoz
+
+### 🔹 [Microsoft Graph Mailer](https://www.drupal.org/project/microsoft_graph_mailer)
+- **Description:** Mailer integration for Drupal that sends messages through Microsoft 365 using Microsoft Graph, with attachment support.
+- **Category:** Drupal module / Mail
+- **Creator:** Fernando Muñoz
+
+### 🔹 [SSID](https://www.drupal.org/project/ssid)
+- **Description:** Drupal field type that generates auto-incrementing serial numbers, either global or resettable by time period, useful for invoices and identifiers.
+- **Category:** Drupal module
+- **Creator:** Fernando Muñoz
 
 ---
 

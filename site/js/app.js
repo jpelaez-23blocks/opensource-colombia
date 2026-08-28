@@ -292,6 +292,13 @@
     });
   }
 
+  // Perfil público del creador: casi todos están en GitHub y se derivan del
+  // handle, pero algunos alojan su código en otra plataforma y traen la URL
+  // completa en "profile".
+  function creatorUrl(c) {
+    return c.profile || "https://github.com/" + c.github;
+  }
+
   // --- Carrusel de destacados (sin autoplay) -----------------------------
   function getFeatured() {
     return window.PROJECTS.filter((p) => p.featured);
@@ -338,7 +345,7 @@
     const by = document.createElement("p");
     by.className = "featured-by";
     const byLink = document.createElement("a");
-    byLink.href = "https://github.com/" + p.creator.github;
+    byLink.href = creatorUrl(p.creator);
     byLink.target = "_blank";
     byLink.rel = "noopener noreferrer";
     byLink.textContent = p.creator.name;
@@ -577,7 +584,7 @@
       const info = document.createElement("span");
       const link = document.createElement("a");
       link.className = "creator-name";
-      link.href = "https://github.com/" + c.creator.github;
+      link.href = creatorUrl(c.creator);
       link.target = "_blank";
       link.rel = "noopener noreferrer";
       link.textContent = c.creator.name;
