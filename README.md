@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contribuidores)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totales:** 37 proyectos · 7 categorías
+> 📊 **Totales:** 42 proyectos · 7 categorías
 
 Una muestra del talento colombiano en tecnología, programación y datos abiertos. Todos los proyectos son:
 
@@ -68,7 +68,7 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Creador:** David Cardozo
 
 ### 🔹 [Flax NNX](https://github.com/google/flax)
-- **Descripción:** API de Flax (biblioteca de redes neuronales para JAX de Google) que usa clases de Python estándar y manejo de estado explícito para hacer la definición y el entrenamiento de modelos más simple e intuitivo.
+- **Descripción:** API de Flax, la biblioteca de redes neuronales de Google para JAX: clases de Python estándar y estado explícito para definir y entrenar modelos.
 - **Categoría:** Framework de deep learning
 - **Creador:** Cristian García
 
@@ -212,6 +212,31 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Descripción:** Plantilla de página de enlaces en la biografía construida con Astro y Tailwind CSS, configurable desde un único archivo de datos.
 - **Categoría:** Astro / Plantilla de enlaces
 - **Creador:** Oscar Barajas Tavares (gndx)
+
+### 🔹 [Auctioneer](https://www.drupal.org/project/auctioneer)
+- **Descripción:** Módulo base para Drupal que permite crear tipos de subasta y definir su propio flujo mediante un sistema de plugins.
+- **Categoría:** Módulo de Drupal
+- **Creador:** Fernando Muñoz
+
+### 🔹 [ePayco](https://www.drupal.org/project/epayco)
+- **Descripción:** Integración de la pasarela de pagos colombiana ePayco en Drupal, con soporte para pagos off-site, en iframe y enlaces de pago.
+- **Categoría:** Módulo de Drupal / Pagos
+- **Creador:** Fernando Muñoz
+
+### 🔹 [Dynamic Selection Tools](https://www.drupal.org/project/dynamic_selection_tools)
+- **Descripción:** Opciones permitidas dinámicas para campos de texto y numéricos en Drupal, conservando los valores originales guardados en la base de datos.
+- **Categoría:** Módulo de Drupal
+- **Creador:** Fernando Muñoz
+
+### 🔹 [Microsoft Graph Mailer](https://www.drupal.org/project/microsoft_graph_mailer)
+- **Descripción:** Integración de correo para Drupal que envía mensajes a través de Microsoft 365 usando Microsoft Graph, con soporte para archivos adjuntos.
+- **Categoría:** Módulo de Drupal / Correo
+- **Creador:** Fernando Muñoz
+
+### 🔹 [SSID](https://www.drupal.org/project/ssid)
+- **Descripción:** Tipo de campo para Drupal que genera números seriales autoincrementales, globales o reiniciables por periodo, útiles para facturas e identificadores.
+- **Categoría:** Módulo de Drupal
+- **Creador:** Fernando Muñoz
 
 ---
 
