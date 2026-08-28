@@ -221,6 +221,18 @@ window.CATEGORIES = {
       },
     },
     {
+      name: "Amonite Mobile",
+      url: "https://github.com/ManuelGil/amonite-mobile",
+      category: "mobile",
+      creator: C.manuel,
+      tags: ["Linux", "ARM64", "Waydroid"],
+      description: {
+        es: "Distribución Linux para dispositivos móviles ARM64 basada en Debian 13 (trixie), con escritorio Wayland pensado para pantalla táctil, instalador Calamares y Waydroid integrado para ejecutar aplicaciones Android. Construye la variante Community; todavía no ha sido probada en hardware físico.",
+        en: "Linux distribution for ARM64 mobile devices based on Debian 13 (trixie), with a Wayland desktop built for touchscreens, the Calamares installer and Waydroid integrated to run Android applications. It builds the Community variant and has not been tested on physical hardware yet.",
+        pt: "Distribuição Linux para dispositivos móveis ARM64 baseada no Debian 13 (trixie), com desktop Wayland pensado para tela sensível ao toque, instalador Calamares e Waydroid integrado para executar aplicativos Android. Constrói a variante Community; ainda não foi testada em hardware físico.",
+      },
+    },
+    {
       name: "Midori",
       url: "https://github.com/goastian/midori-desktop",
       category: "mobile",
@@ -326,6 +338,30 @@ window.CATEGORIES = {
         es: "Extensión de VS Code para crear y mantener archivos barrel (index.ts) en proyectos TypeScript/JavaScript.",
         en: "VS Code extension to create and maintain barrel files (index.ts) in TypeScript/JavaScript projects.",
         pt: "Extensão do VS Code para criar e manter arquivos barrel (index.ts) em projetos TypeScript/JavaScript.",
+      },
+    },
+    {
+      name: "Cedra",
+      url: "https://github.com/ManuelGil/cedra",
+      category: "extensions",
+      creator: C.manuel,
+      tags: ["GTK", "Debian", "Python"],
+      description: {
+        es: "Aplicación GTK para estaciones de trabajo Debian que instala software con APT y aplica la configuración del sistema que el paquete no cubre: valores por defecto de Git, políticas del navegador, fuentes, terminal e impresión.",
+        en: "GTK application for Debian-family workstations that installs software with APT and applies the system integration a package install does not cover: Git defaults, browser policies, fonts, terminal and printing settings.",
+        pt: "Aplicativo GTK para estações de trabalho Debian que instala software com APT e aplica a configuração de sistema que o pacote não cobre: padrões do Git, políticas do navegador, fontes, terminal e impressão.",
+      },
+    },
+    {
+      name: "Weave Context Dashboard",
+      url: "https://github.com/ManuelGil/weave-context-dashboard",
+      category: "extensions",
+      creator: C.manuel,
+      tags: ["Desktop", "Vue", "Markdown"],
+      description: {
+        es: "Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.",
+        en: "Desktop application that reads a folder of Markdown files and reports which documents exist, how they reference one another through explicit wikilinks, and where each one sits, with workspace, explore, search, inspector and reference-graph screens. It does not modify files or infer relationships.",
+        pt: "Aplicativo de desktop que lê uma pasta de arquivos Markdown e informa quais documentos existem, como se referenciam por wikilinks explícitos e onde cada um se situa, com telas de espaço de trabalho, exploração, busca, inspetor e grafo de referências. Não modifica os arquivos nem infere relações.",
       },
     },
     {
@@ -554,6 +590,18 @@ window.CATEGORIES = {
         es: "Colección de skills listos para usar con Claude, ChatGPT y otros LLMs, orientados a la práctica jurídica colombiana: análisis de contratos, redacción de tutelas y escritos judiciales, investigación normativa y comunicación con clientes.",
         en: "Collection of ready-to-use skills for Claude, ChatGPT and other LLMs, tailored to Colombian legal practice: contract analysis, drafting of tutelas and judicial documents, legal research and client communication.",
         pt: "Coleção de skills prontos para usar com Claude, ChatGPT e outros LLMs, voltados à prática jurídica colombiana: análise de contratos, redação de tutelas e petições judiciais, pesquisa normativa e comunicação com clientes.",
+      },
+    },
+    {
+      name: "Weave Skills",
+      url: "https://github.com/ManuelGil/weave-context-skills",
+      category: "recursos",
+      creator: C.manuel,
+      tags: ["IA", "Agentes", "Markdown"],
+      description: {
+        es: "Colección de cuatro skills en Markdown para agentes de IA (knowledge-construction, implementation-investigation, operational-memory y locality-recovery) que ayudan a preservar y reconstruir el contexto de trabajos de ingeniería que abarcan varias sesiones. Se instalan como archivos del repositorio y se comparten entre herramientas como Claude, Cursor y Windsurf mediante enlaces simbólicos.",
+        en: "Collection of four Markdown skills for AI agents (knowledge-construction, implementation-investigation, operational-memory and locality-recovery) that help preserve and rebuild context across engineering work spanning multiple sessions. They install as repository files and are shared across tools such as Claude, Cursor and Windsurf through symbolic links.",
+        pt: "Coleção de quatro skills em Markdown para agentes de IA (knowledge-construction, implementation-investigation, operational-memory e locality-recovery) que ajudam a preservar e reconstruir o contexto de trabalhos de engenharia que abrangem várias sessões. Instalam-se como arquivos do repositório e são compartilhados entre ferramentas como Claude, Cursor e Windsurf por meio de links simbólicos.",
       },
     },
   ];

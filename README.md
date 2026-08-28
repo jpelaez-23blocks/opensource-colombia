@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contribuidores)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totales:** 42 proyectos · 7 categorías
+> 📊 **Totales:** 46 proyectos · 7 categorías
 
 Una muestra del talento colombiano en tecnología, programación y datos abiertos. Todos los proyectos son:
 
@@ -115,6 +115,11 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Categoría:** Desarrollo de videojuegos / Unity
 - **Creador:** J.D. Nicholls (Proyecto26)
 
+### 🔹 [Amonite Mobile](https://github.com/ManuelGil/amonite-mobile)
+- **Descripción:** Distribución Linux para dispositivos móviles ARM64 basada en Debian 13 (trixie), con escritorio Wayland pensado para pantalla táctil, instalador Calamares y Waydroid integrado para ejecutar aplicaciones Android. Construye la variante Community; todavía no ha sido probada en hardware físico.
+- **Categoría:** Distribución Linux móvil / ARM64
+- **Creador:** Manuel Gil
+
 ### 🔹 [Midori](https://github.com/goastian/midori-desktop)
 - **Descripción:** Navegador de escritorio ligero, rápido y enfocado en la privacidad, basado en el motor Gecko de Firefox. Incluye bloqueador de anuncios y rastreadores, gestor de espacios de trabajo, motores de búsqueda personalizados y sincronización de correo/contactos (CalDAV, CardDAV). Multiplataforma (Windows, macOS y Linux).
 - **Categoría:** Navegador de escritorio
@@ -166,6 +171,16 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 ### 🔹 [Auto Barrel](https://github.com/ManuelGil/vscode-auto-barrel)
 - **Descripción:** Extensión de VS Code para crear y mantener archivos barrel (index.ts) en proyectos TypeScript/JavaScript.
 - **Categoría:** Extensiones VS Code / Productividad
+- **Creador:** Manuel Gil
+
+### 🔹 [Cedra](https://github.com/ManuelGil/cedra)
+- **Descripción:** Aplicación GTK para estaciones de trabajo Debian que instala software con APT y aplica la configuración del sistema que el paquete no cubre: valores por defecto de Git, políticas del navegador, manejadores de escritorio, fuentes, terminal e impresión.
+- **Categoría:** Utilidad de escritorio / Linux (Debian)
+- **Creador:** Manuel Gil
+
+### 🔹 [Weave Context Dashboard](https://github.com/ManuelGil/weave-context-dashboard)
+- **Descripción:** Aplicación de escritorio que lee una carpeta de archivos Markdown y reporta qué documentos existen, cómo se referencian entre sí mediante wikilinks explícitos y dónde se ubica cada uno, con pantallas de espacio de trabajo, exploración, búsqueda, inspector y grafo de referencias. No modifica los archivos ni infiere relaciones.
+- **Categoría:** Aplicación de escritorio / Documentación Markdown
 - **Creador:** Manuel Gil
 
 ### 🔹 [Kaddo](https://github.com/Kaddo-kdd/kaddo)
@@ -265,6 +280,11 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Descripción:** Colección de skills listos para usar con Claude, ChatGPT y otros LLMs, orientados a la práctica jurídica colombiana: análisis de contratos, redacción de tutelas y escritos judiciales, investigación normativa y comunicación con clientes.
 - **Categoría:** IA / Legal tech
 - **Creador:** Carlos Alvarado
+
+### 🔹 [Weave Skills](https://github.com/ManuelGil/weave-context-skills)
+- **Descripción:** Colección de cuatro skills en Markdown para agentes de IA (knowledge-construction, implementation-investigation, operational-memory y locality-recovery) que ayudan a preservar y reconstruir el contexto de trabajos de ingeniería que abarcan varias sesiones. Se instalan como archivos del repositorio y se comparten entre herramientas como Claude, Cursor y Windsurf mediante enlaces simbólicos.
+- **Categoría:** IA / Skills para agentes
+- **Creador:** Manuel Gil
 
 ---
 
