@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contribuidores)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totales:** 52 proyectos · 7 categorías
+> 📊 **Totales:** 52 proyectos · 8 categorías
 
 Una muestra del talento colombiano en tecnología, programación y datos abiertos. Todos los proyectos son:
 
@@ -76,6 +76,10 @@ Allí puedes buscar proyectos, filtrar por categoría y descubrir el talento col
 - **Descripción:** Componente de tarjeta de crédito y débito para formularios de pago y vistas de tarjetas guardadas, con detección de marca en vivo, giro 3D y temas por variables CSS. Sin dependencias, para React, Vue, Svelte y JavaScript puro en un solo paquete.
 - **Categoría:** Componentes de UI / formularios de pago
 - **Creador:** Juan David García Rincón
+
+---
+
+## 🤖 Agentes IA y Protocolos
 
 ### 🔹 [AI Maestro](https://github.com/23blocks-OS/ai-maestro)
 - **Descripción:** Orquestador de agentes de IA con panel web: memoria semántica, consultas al grafo de código y mensajería entre agentes. Gestiona Claude, Codex o cualquier agente desde un solo lugar, incluso repartidos entre varios computadores.

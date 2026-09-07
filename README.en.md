@@ -9,7 +9,7 @@
 [![All Contributors](https://img.shields.io/github/all-contributors/Mteheran/opensource-colombia?color=ee8449&style=flat-square)](#-contributors)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-> 📊 **Totals:** 52 projects · 7 categories
+> 📊 **Totals:** 52 projects · 8 categories
 
 A showcase of Colombian talent in technology, programming and open data. All projects are:
 
@@ -76,6 +76,10 @@ There you can search projects, filter by category and discover Colombian open so
 - **Description:** Credit and debit card component for payment forms and saved-card views, with live brand detection, a 3D flip and CSS-variable theming. Dependency-free, for React, Vue, Svelte and vanilla JavaScript in a single package.
 - **Category:** UI components / payment forms
 - **Creator:** Juan David García Rincón
+
+---
+
+## 🤖 AI Agents & Protocols
 
 ### 🔹 [AI Maestro](https://github.com/23blocks-OS/ai-maestro)
 - **Description:** AI agent orchestrator with a web dashboard: semantic memory, code-graph queries and agent-to-agent messaging. Run Claude, Codex or any agent from one place, even spread across several machines.

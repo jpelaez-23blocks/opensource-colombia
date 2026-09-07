@@ -2,6 +2,7 @@
 // Las etiquetas de texto viven en js/i18n.js (categories / categoriesShort).
 window.CATEGORIES = {
   libraries: { color: "#1b4db1", colorDark: "#8fb6ee", glyph: "{}" },
+  agents: { color: "#8a1c6e", colorDark: "#e79ad0", glyph: "@" },
   apis: { color: "#0e7c66", colorDark: "#5fc9ad", glyph: "</>" },
   mobile: { color: "#7a3bb5", colorDark: "#c3a0ea", glyph: "[]" },
   games: { color: "#c8102e", colorDark: "#ff8b98", glyph: "▷" },
@@ -608,7 +609,7 @@ window.CATEGORIES = {
     {
       name: "AI Maestro",
       url: "https://github.com/23blocks-OS/ai-maestro",
-      category: "libraries",
+      category: "agents",
       creator: C.juan,
       tags: ["AI Agents", "Orchestration", "Claude Code"],
       description: {
@@ -620,7 +621,7 @@ window.CATEGORIES = {
     {
       name: "Agent Messaging Protocol",
       url: "https://github.com/agentmessaging/protocol",
-      category: "libraries",
+      category: "agents",
       creator: C.juan,
       tags: ["Protocol", "Ed25519", "Messaging"],
       description: {
@@ -632,7 +633,7 @@ window.CATEGORIES = {
     {
       name: "lolabot",
       url: "https://github.com/23blocks-OS/lolabot",
-      category: "libraries",
+      category: "agents",
       creator: C.juan,
       tags: ["AI Agents", "Assistant", "Claude Code"],
       description: {
@@ -644,7 +645,7 @@ window.CATEGORIES = {
     {
       name: "Agent Identity",
       url: "https://github.com/agentmessaging/agent-identity",
-      category: "libraries",
+      category: "agents",
       creator: C.juan,
       tags: ["Protocol", "OAuth 2.0", "Ed25519"],
       description: {
@@ -656,7 +657,7 @@ window.CATEGORIES = {
     {
       name: "Agent Actions Protocol",
       url: "https://github.com/agentmessaging/agent-actions",
-      category: "libraries",
+      category: "agents",
       creator: C.juan,
       tags: ["Protocol", "UI"],
       description: {
@@ -668,7 +669,7 @@ window.CATEGORIES = {
     {
       name: "AI Maestro Plugins",
       url: "https://github.com/23blocks-OS/ai-maestro-plugins",
-      category: "libraries",
+      category: "agents",
       creator: C.juan,
       tags: ["AI Agents", "Plugins", "Claude Code"],
       description: {
